@@ -100,3 +100,31 @@ nav a:hover {
   max-width: 500px;
   text-align: center;
 }
+
+/* skills CSS */
+#skills-section {
+  background-color: #F7FBFC;
+  padding: 5% 8%;
+}
+
+#skills-section .container {
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.skills-heading {
+  font-size: 2rem;
+  color: #769FCD;
+}
+
+.skills-development,
+.skills-music {
+  max-width: 500px;
+}
+
+.development-heading,
+.music-heading {
+  font-size: 1.5rem;
+  color: #769FCD;
+}
