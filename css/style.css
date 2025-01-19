@@ -180,3 +180,14 @@ nav a:hover {
 #contact-section a:hover {
   color: #D6E6F2;
 }
+
+
+/* footer CSS */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 8%;
+  background-color: #B9D7EA;
+  color: #F7FBFC;
+}
