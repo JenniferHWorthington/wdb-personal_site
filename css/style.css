@@ -15,12 +15,17 @@ html {
   font-family: Montserrat, sans-serif;
 }
 
+.container {
+  display: flex;
+}
+
+/* header CSS */
 header {
   background-color: #B9D7EA;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1% 5%;
+  padding: 1% 8%;
 }
 
 .header-logo {
@@ -40,4 +45,28 @@ nav a {
 
 nav a:hover {
   color: aliceblue;
+}
+
+
+/* hero CSS */
+#hero-section {
+  background-color: #D6E6F2;
+  padding: 15% 16% 10% 8%;
+}
+
+#hero-section .container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  max-width: 600px;
+  min-width: 400px;
+  color:#769FCD;
+  font-size: 3rem;
+}
+
+.hero-image {
+  width: 500px;
+  border-radius: 12px;
 }
