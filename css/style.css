@@ -141,5 +141,42 @@ nav a:hover {
 
 /* contact CSS */
 #contact-section {
+  padding: 5% 8%;
+}
 
+#contact-section .container {
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.contact-heading {
+  font-size: 2rem;
+  color: #769FCD;
+}
+
+.contact-lure {
+  font-size: 1.5rem;
+  color: #769FCD;
+}
+
+.contact-text {
+  max-width: 500px;
+}
+
+.contact-btn {
+  border: none;
+  background-color: #769FCD;
+  padding: 5px 10px;
+  border-radius: 12px;
+  color: #F7FBFC;
+}
+
+#contact-section a {
+  text-decoration: none;
+  color: #769FCD;
+}
+
+#contact-section a:hover {
+  color: #D6E6F2;
 }
