@@ -44,7 +44,7 @@ nav a {
 }
 
 nav a:hover {
-  color: aliceblue;
+  color: #F7FBFC;
 }
 
 
@@ -69,4 +69,34 @@ nav a:hover {
 .hero-image {
   width: 500px;
   border-radius: 12px;
+}
+
+
+/* about CSS */
+#about-section {
+  background-color: #F7FBFC;
+  padding: 10% 8%;
+}
+
+#about-section .container {
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.about-pfp {
+  width: 300px;
+  border: 3px solid #769FCD;
+  border-radius: 50%;
+  margin-bottom: 2%;
+}
+
+.about-heading {
+  font-size: 2rem;
+  color: #769FCD;
+}
+
+.about-text {
+  max-width: 500px;
+  text-align: center;
 }
