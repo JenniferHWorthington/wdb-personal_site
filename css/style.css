@@ -13,10 +13,19 @@
 
 html {
   font-family: Montserrat, sans-serif;
+  background-color: #F7FBFC;;
 }
 
 .container {
   display: flex;
+}
+
+hr {
+  width: 4%;
+  margin: 0 auto;
+  border: 8px;
+  border-top-style: dotted;
+  border-color: #D6E6F2;
 }
 
 /* header CSS */
@@ -127,4 +136,10 @@ nav a:hover {
 .music-heading {
   font-size: 1.5rem;
   color: #769FCD;
+}
+
+
+/* contact CSS */
+#contact-section {
+
 }
